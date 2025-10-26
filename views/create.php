@@ -154,14 +154,18 @@ require_once '../utils/util.php';
         </div>
 
         <div class="flex flex-row gap-3 w-full justify-between">
-          <a href="dashboard.php" class="px-3.5 py-2 rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300">
-            Kembali ke dashboard
+          <a href="dashboard.php"
+            class="flex gap-2 border border-gray-500 items-center px-3.5 py-2 rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300 font-medium">
+            <span class="material-symbols-outlined">arrow_back</span>
+            <p>Kembali ke dashboard</p>
           </a>
           <div class="w-fit h-fit flex gap-3">
-            <button type="reset" class="px-3.5 py-2 rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300">
+            <button type="reset"
+              class="border border-gray-500 px-3.5 py-2 rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300 font-medium">
               Kosongkan formulir
             </button>
-            <button type="submit" class="px-3.5 py-2 rounded-md shadow-sm bg-blue-600 text-white hover:bg-blue-700">
+            <button type="submit"
+              class="px-3.5 py-2 rounded-md shadow-sm bg-blue-600 text-white hover:bg-blue-700 font-medium">
               Tambahkan
             </button>
           </div>
