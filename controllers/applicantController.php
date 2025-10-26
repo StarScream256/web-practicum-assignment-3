@@ -1,5 +1,6 @@
 <?php
 
+require_once '../config/app.php';
 require_once '../config/connection.php';
 require_once '../utils/json_loader.php';
 require_once '../utils/util.php';
