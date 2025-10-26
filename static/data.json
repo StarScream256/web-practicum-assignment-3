@@ -1,0 +1,111 @@
+{
+  "packages": [
+    {
+      "id": "undefined",
+      "name": "Undefined",
+      "price": 0
+    },
+    {
+      "id": "intense",
+      "name": "Intensif SBMPTN",
+      "iconName": "book",
+      "iconBg": "bg-blue-500",
+      "description": "Fokus tinggi, progres lebih cepat",
+      "tag": "Populer",
+      "tagBg": "bg-sky-200",
+      "price": 500000,
+      "originalPrice": 600000
+    },
+    {
+      "id": "regular",
+      "name": "Reguler",
+      "iconName": "person",
+      "iconBg": "bg-slate-500",
+      "description": "Harga terjangkau dengan fitur dasar",
+      "tag": "",
+      "tagBg": "",
+      "price": 750000,
+      "originalPrice": 750000
+    },
+    {
+      "id": "supercamp",
+      "name": "Supercamp SBMPTN",
+      "iconName": "star_shine",
+      "iconBg": "bg-red-500",
+      "description": "Karantina belajar dalam mugen tsukoyomi. Gagal? kamu jadi prioritas masuk akatsuki",
+      "tag": "Ultimate",
+      "tagBg": "bg-red-200",
+      "price": 1000000,
+      "originalPrice": 1000000
+    }
+  ],
+
+  "addons": [
+    {
+      "id": "printModule",
+      "name": "Modul cetak lengkap",
+      "price": 50000
+    },
+    {
+      "id": "pdfModule",
+      "name": "Modul PDF",
+      "price": 25000
+    },
+    {
+      "id": "videoRecording",
+      "name": "Video rekaman kelas",
+      "price": 75000
+    },
+    {
+      "id": "groupDiscussion",
+      "name": "Grup diskusi telegram",
+      "price": 40000
+    }
+  ],
+
+  "locations": [
+    {
+      "id": "jakartaPusat",
+      "name": "Jakarta Pusat",
+      "price": 100000
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta",
+      "price": 80000
+    },
+    {
+      "id": "aceh",
+      "name": "Aceh",
+      "price": 120000
+    },
+    {
+      "id": "surabaya",
+      "name": "Surabaya",
+      "price": 150000
+    },
+    {
+      "id": "makassar",
+      "name": "Makassar",
+      "price": 115000
+    }
+  ],
+
+  "payments": [
+    {
+      "id": "cash",
+      "name": "Tunai",
+      "price": 0
+    },
+    {
+      "id": "bankTransfer",
+      "name": "Transfer bank",
+      "price": 3000
+    },
+    {
+      "id": "eWallet",
+      "name": "E-Wallet",
+      "price": 2000
+    }
+  ]
+}
