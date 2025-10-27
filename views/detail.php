@@ -132,8 +132,6 @@ $detail = mysqli_fetch_assoc(detail($_GET['id']));
       </div>
     </div>
   </div>
-
-  <script src="main.js"></script>
 </body>
 
 </html>

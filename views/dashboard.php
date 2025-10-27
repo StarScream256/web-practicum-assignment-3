@@ -17,8 +17,6 @@ require_once '../utils/util.php';
 
 <body class="bg-gray-100 text-gray-900 ubuntu-regular">
 
-  <?php require_once '../components/header.php' ?>
-
   <div class="w-full h-fit min-h-screen p-3 md:p-8">
     <div class="p-4 bg-white rounded-lg shadow-lg">
       <span class="w-full h-fit flex justify-start mb-3">
@@ -133,12 +131,8 @@ require_once '../utils/util.php';
     </div>
   </div>
 
-  <?php require_once '../components/footer.php' ?>
-
   <script>
     new DataTable("#applicant");
-
-
   </script>
 </body>
 
