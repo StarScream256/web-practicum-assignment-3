@@ -168,11 +168,11 @@ $detail = mysqli_fetch_assoc(detail($_GET['id']));
           </a>
           <div class="w-fit h-fit flex gap-3">
             <button type="reset"
-              class="border border-gray-500 px-3.5 py-2 rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300">
+              class="border border-gray-500 px-3.5 py-2 font-medium rounded-md shadow-sm bg-gray-200 text-gray-800 hover:bg-gray-300">
               Reset perubahan
             </button>
             <button type="submit" id="submitUpdateBtn" disabled
-              class="px-3.5 py-2 rounded-md shadow-sm bg-blue-600 disabled:bg-blue-200 text-white hover:bg-blue-700">
+              class="px-3.5 py-2 font-medium rounded-md shadow-sm bg-blue-600 disabled:bg-blue-200 text-white hover:bg-blue-700">
               Update data
             </button>
           </div>
