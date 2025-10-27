@@ -10,7 +10,7 @@
 
 <!-- Google Fonts Icon -->
 <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back,book,check,delete,edit,person,person_add,star_shine,visibility,warning" />
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back,book,check,check_circle,delete,edit,person,person_add,star_shine,visibility,warning" />
 
 <!-- DataTables -->
 <link
