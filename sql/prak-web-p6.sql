@@ -18,31 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `prak-web-p6`
+-- Database: `bimbel`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `barang`
---
-
-CREATE TABLE `barang` (
-  `id` int NOT NULL,
-  `nama_barang` varchar(255) NOT NULL,
-  `harga` int NOT NULL,
-  `stok` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
---
--- Dumping data for table `barang`
---
-
-INSERT INTO `barang` (`id`, `nama_barang`, `harga`, `stok`) VALUES
-(1, 'Sikat', 15000, 10),
-(3, 'er21', 12, 12),
-(4, 'test', 1200, 1),
-(7, 'Laptop', 123456, 12);
 
 -- --------------------------------------------------------
 
@@ -74,12 +51,6 @@ CREATE TABLE `pendaftar` (
 --
 
 --
--- Indexes for table `barang`
---
-ALTER TABLE `barang`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `pendaftar`
 --
 ALTER TABLE `pendaftar`
@@ -88,12 +59,6 @@ ALTER TABLE `pendaftar`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
---
--- AUTO_INCREMENT for table `barang`
---
-ALTER TABLE `barang`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `pendaftar`
