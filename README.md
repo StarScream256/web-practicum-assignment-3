@@ -28,7 +28,7 @@ In the `/config` directory, find the file `db_credentials.example.php`.
 
 Make a copy of this file in the same folder and rename it to `db_credentials.php`.
 
-Open db_credentials.php and update the `$hostname`, `$username`, `$password`, and `$database` variables to match your local MySQL setup.
+Open `db_credentials.php` and update the `$hostname`, `$username`, `$password`, and `$database` variables to match your local MySQL setup.
 
 ### 3. Running the Application
 
