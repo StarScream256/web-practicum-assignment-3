@@ -64,10 +64,14 @@ function create($name, $email, $package, $addons, $location, $payment, $note)
     )
   )[0];
 
-  $totalPrice = $package['price'] + $location['price'] + $addonPrice;
+  $totalPrice = $package['name'] !== 'Undefined'
+    ? $package['price'] + $location['price'] + $addonPrice
+    : 0;
   $tax_rate = $package['name'] !== 'Undefined' ? 10 : 0;
   $tax_amount = $totalPrice * $tax_rate / 100;
-  $totalPrice += $tax_amount + $payment['price'];
+  $totalPrice += $package['name'] !== 'Undefined'
+    ? $tax_amount + $payment['price']
+    : 0;
 
   $addonString = implode(
     ', ',
